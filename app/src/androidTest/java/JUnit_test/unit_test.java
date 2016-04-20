@@ -21,8 +21,9 @@ public class unit_test extends ActivityInstrumentationTestCase2<MainActivity> {
 
         mainActivity.runOnUiThread(new Runnable() {
             public void run() {
-                TextView textView1 = (TextView) mainActivity.findViewById(R.id.number1);
+
                 TextView textView2 = (TextView) mainActivity.findViewById(R.id.number2);
+                TextView textView1 = (TextView) mainActivity.findViewById(R.id.number1);
                 TextView textView3 = (TextView) mainActivity.findViewById(R.id.sum_result);
                 Button btn = (Button) mainActivity.findViewById(R.id.button);
 
